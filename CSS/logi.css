@@ -42,12 +42,14 @@
     color:  #9dadf3;
  }
   .text{
-    margin: 28px;
-    
+    margin-top: 21px;
+    margin-left: -4px;
+    margin-bottom: 40px;
+    left: 10;
+    margin-right: 80px;
     position: relative;
     width: 300px;
     height: 40px;
-    border-radius: solid 4 #9dadf3;
     
   }
   .email{
@@ -77,6 +79,25 @@
   }
   .a{
     position: relative;
-    
+
     border: none;
   }
+  .bt{
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    border-radius: inherit;
+  }
+  .btv{
+    opacity: 4;
+    transition: opacity 2115ms cubic-bezier(0,0,0.2,1)0ms;
+  }
+  .e{
+    font-size: 40px;
+  }
+  button{
+    color: #7451eb;
+  }
+ 

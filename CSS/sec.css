@@ -52,15 +52,15 @@
   }
   .email{
     position: relative;
-    top: 100px;
+    top: 34px;
     width: 400px;
-    height: 400px;
+    height: 100px;
     margin: 0 auto;
     
   }
   .r{
     position: relative;
-    width: 300px;
+    width: 100px;
     height: 30px;
     border-bottom: none;
     border-radius: solid 3 black;
@@ -80,3 +80,33 @@
     
     border: none;
   }
+  /* label{
+    position :relative;
+    width: 250;
+  } */
+  .bt{
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    border-radius: inherit;
+  }
+  .btv{
+    opacity: 4;
+    transition: opacity 2115ms cubic-bezier(0,0,0.2,1)0ms;
+  }
+  .e{
+    font-size: 40px;
+  }
+  button{
+    color: #7451eb;
+  }
+ 
+  /* .emai{
+    position: relative;
+    top: 29px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  } */
