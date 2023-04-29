@@ -183,11 +183,18 @@ a{
 .first{
   width: 20%;
   height: 100%;
+  padding-top: 10%;
+  
+}
+.first div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 .second{
-  width: 20%;
-  height: 100%;
+  width: 35%;
+  height: 80%;
   
 }
 
