@@ -1,0 +1,122 @@
+:root{
+    --color1 : #9dad9f3;
+    --color2 : #7451eb;
+    --color3 : rgb(255 250 238)
+
+}
+
+*, ::before, ::after{
+   box-sizing: border-box ;
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins';
+}
+
+.propos{
+    width:auto;
+    height:40vh;
+    
+}
+.parcours{
+    margin-top: 1rem;
+    width:auto;
+    
+    
+
+}
+
+.entete{
+    
+    height: 10%;
+}
+.cours{
+    margin-top: 2.5rem;
+    width:auto;
+    
+    height: 75%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  
+}
+
+
+
+.coursCard{
+    margin-top: 2px;
+    background-color: var(--color3);
+    height: 366px;
+    width: 20%;
+    min-width: 350px;
+    max-width: 366px;
+}
+.coursCard img{
+    width:100%;
+    height: 70%;
+}
+
+/**************/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .tete {
+    background-color: var(--color3);
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+
+  .barre{
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: auto;
+    height: .5rem;
+    background-color: rgba(255, 255, 0, 0.215);
+  }
+.barre-1,.barre-2,.barre-3,.barre-4,.barre-5{
+    
+}
+
+.barre-1{
+
+    width:50%;
+    height: .5rem;
+    background-color: var(--color2);
+}
+.barre-2{
+
+    width:50%;
+    height: .5rem;
+    background-color: var(--color2);
+}
+.barre-3{
+
+    width:50%;
+    height: .5rem;
+    background-color: var(--color2);
+}
+.barre-4{
+
+    width:auto;
+    height: .5rem;
+    background-color: var(--color2);
+}
+.barre-5{
+
+    width:100%;
+    height: .5rem;
+    background-color: var(--color2);
+}
+  /********/
