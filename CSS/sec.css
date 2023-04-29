@@ -42,27 +42,25 @@
     color:  #9dadf3;
  }
   .text{
-    margin-top: 21px;
-    margin-left: -4px;
-    margin-bottom: 40px;
-    left: 10;
-    margin-right: 80px;
+    margin: 28px;
+    
     position: relative;
     width: 300px;
     height: 40px;
+    border-radius: solid 4 #9dadf3;
     
   }
   .email{
     position: relative;
-    top: 100px;
+    top: 34px;
     width: 400px;
-    height: 400px;
+    height: 100px;
     margin: 0 auto;
     
   }
   .r{
     position: relative;
-    width: 300px;
+    width: 100px;
     height: 30px;
     border-bottom: none;
     border-radius: solid 3 black;
@@ -79,9 +77,13 @@
   }
   .a{
     position: relative;
-
+    
     border: none;
   }
+  /* label{
+    position :relative;
+    width: 250;
+  } */
   .bt{
     overflow: hidden;
     pointer-events: none;
@@ -101,3 +103,10 @@
     color: #7451eb;
   }
  
+  /* .emai{
+    position: relative;
+    top: 29px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  } */
