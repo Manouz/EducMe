@@ -1,0 +1,49 @@
+/* ==== Sidebar ==== */
+#sidebar{
+	grid-area: sidebar;
+	color: #A4A6B3;
+	height: 100%;
+	overflow-y: auto;
+	transition: all .3s ease-in;
+	background-color: #fff;
+	position: fixed;
+}
+
+.sidebar-list{
+	padding: 0;
+	margin-top: 16px;
+	list-style-type: none;
+}
+
+.sidebar-active, .body-employe .sidebar-active{
+	border-radius: 150px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #DDE2FF;
+	cursor: pointer;
+}
+
+.sidebar-elem{
+	padding: 20px;
+	transition: .3s ease-in;
+}
+
+.sidebar-elem:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #DDE2FF;
+	cursor: pointer;
+}
+
+.sidebar-elem a{
+    color: #3c3a3a;
+    text-decoration: none;
+	padding: 20px;
+	transition: .3s ease-in;
+}
+
+.sidebar-elem a:focus{
+    color: #000000;
+    text-decoration: none;
+	padding: 20px;
+	transition: .3s ease-in;
+}
+
