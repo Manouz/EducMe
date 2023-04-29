@@ -23,7 +23,7 @@ body{
 	max-width: 1170px;
 	margin:auto;
 }
-.xon{
+.banner{
 	width: 100%;
   height: 50vh;
 	position: relative;
@@ -197,6 +197,11 @@ a{
 
 /* End Header */
 
+
+
+.banner{
+  width: ;
+}
 
 /* Footer */
 
