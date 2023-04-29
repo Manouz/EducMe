@@ -20,3 +20,9 @@
     font-size: 2em;
     font-weight: 700;
 }
+
+.descimage{
+    background-image: url(../IMG/imageAbout.jpg) transparent no-repeat cover center;
+    border-radius: 50%;
+
+}
