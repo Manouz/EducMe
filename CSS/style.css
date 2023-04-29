@@ -1,0 +1,16 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ :root{
+    --coloPrimary : #7451eb
+    --coloPrimary : #9dadf3
+    --coloPrimary : rgb(255,250,238)
+ }
+
+
+body{
+  font-family: 'Poppins';
+  font-size: 1rem;
+}

@@ -1,3 +1,20 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --coloPrimary : #7451eb;
+    --coloPrimary : #9dadf3;
+    --coloPrimary : rgb(255,250,238)
+}
+  
+body{
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
 /* ==== Sidebar ==== */
 #sidebar{
 	grid-area: sidebar;
@@ -47,3 +64,51 @@
 	transition: .3s ease-in;
 }
 
+
+/*****************************************/
+
+/* START MENU */
+
+.cour{
+    display: block;
+    margin: 0 20%;
+}
+
+.cour .souscour{
+    color: #fff;
+    background-color: rgb(59, 60, 71);
+    width: 30%;
+    border-radius: 16px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.cour .souscour .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158, 157, 157);
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.cour .souscour .image img{
+    width:180px ;
+    height:180px;
+    border-radius: 50px;
+}
+
+.cour .souscour .title-souscour{
+    font-size: 2rem;
+}
+
+.cour .souscour > p{
+    font-size: 1rem;
+}
+
+.cour .souscour .footer-souscour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
