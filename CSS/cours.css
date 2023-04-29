@@ -6,8 +6,8 @@
 
 :root{
     --coloPrimary : #7451eb;
-    --coloPrimary : #9dadf3;
-    --coloPrimary : rgb(255,250,238);
+    --coloSecond : #9dadf3;
+    --colotresei : rgb(255,250,238);
 }
   
 body{
@@ -221,7 +221,7 @@ body{
 
 /*****************************************/
 
-/* START MENU */
+/* START COUR */
 
 .cour{
     display: block;
@@ -230,7 +230,7 @@ body{
 
 .cour .souscour{
     color: #fff;
-    background-color: var(--colotresei);
+    background-color: var(--coloSecond);
     width: 30%;
     border-radius: 16px;
     margin-bottom: 15px;
@@ -248,9 +248,8 @@ body{
 }
 
 .cour .souscour .image img{
-    width:180px ;
-    height:180px;
-    border-radius: 50px;
+    width:100% ;
+    /* border-radius: 50px; */
 }
 
 .cour .souscour .title-souscour{
