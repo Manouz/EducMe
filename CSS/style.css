@@ -199,8 +199,14 @@ a{
 /* End Header */
 
 
-
-
+.first{
+  width: 40%;
+  height: 100%;
+}
+.second{
+  width: 40%;
+  height: 100%;
+}
 
 /* Footer */
 
