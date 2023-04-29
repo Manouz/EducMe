@@ -1,0 +1,38 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   :root{
+      --coloPrimary : #7451eb
+      --coloPrimary : #9dadf3
+      --coloPrimary : rgb(255,250,238)
+   }
+
+.droite{
+    font-family: 'Poppins';
+  
+      position: absolute;
+       align-items:center ;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      
+      width:50%;
+      height:100%;
+      background-color:white;
+  }
+  .droite p{
+      text-align: center;
+      font-family: 'Poppins';
+  }
+  .droite p .un{
+     font-size: large;
+  }
+  .gauche{
+      position:absolute;
+      left: 50%;
+      width:50%;
+      height:100%;
+      background-image:url("../IMG/luxury-home-2409518_1920.jpg");
+  }
