@@ -24,12 +24,16 @@ body{
 	max-width: 1170px;
 	margin:auto;
 }
-.xon{
+.banner{
 	width: 100%;
   height: 50vh;
 	position: relative;
   z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--colotresei);
+  
 }
 ul{
 	list-style: none;
@@ -199,9 +203,22 @@ a{
 /* End Header */
 
 
+.first{
+  width: 20%;
+  height: 100%;
+  
+}
+.second{
+  width: 20%;
+  height: 100%;
+  
+}
+
 /* Footer */
 
 footer{
+
+  margin: 0 auto;
   width: 100%;
   height: auto;
   background-color: #fff;

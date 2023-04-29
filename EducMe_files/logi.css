@@ -28,26 +28,18 @@
       font-family: 'Poppins';
   }
   .un{
-    color:  #7451eb;
     font-size: 100px;
  }
  .deux{
-    font-size: 40px;
- }
- .trois{
-    font-size: 20px;
+    font-size: 50px;
  }
   .text{
     margin: 80px;
-    
     position: relative;
     width: 300px;
     height: 30px;
     border-radius: solid 3 black;
     
-  }
-  .email{
-    left: 100px;
   }
   .r{
     position: relative;
